@@ -1,0 +1,158 @@
+body {
+    background-color: #f2f3f5;
+}
+
+.topBar {
+    background-color: #0b0b31;
+}
+
+.topBar li {
+    display: inline;
+    list-style: none;
+}  
+
+.topBar a {
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+nav {
+    text-align-last: center;
+}
+
+.logoRow button {
+    color: #ffffff;
+    background-color: #0b0b31;
+    border-radius: 5%;
+    padding: 1% 3%;
+    margin: 0px;
+}
+
+/* MAIN STYLING */
+
+
+.carousel button{
+    background-color: #808080;
+    padding: 3%;
+    margin: 1% 1%;
+    border-radius: 65%;
+    border: none;
+}
+
+
+.blogRow h2 {
+    color: #0e1e31;
+}
+
+.blogRow p {
+    color: #808eb1;
+}
+
+.blogRow button {
+    background-color: #213349;
+    color: #ffffff;
+    border-radius: 5%;
+    border: none;
+}
+
+
+.servicesRow {
+    background-image: radial-gradient(farthest-side at 334px -800px, #35557b 0%, #0f1821 100%);
+}
+
+.servicesRow h2 {
+    color: #ffffff;
+}
+
+.servicesRow button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #213349;
+    color: #ffffff;
+    border-radius: 5%;
+    border: none;
+}
+
+.serviceCol {
+    position: relative;
+    padding: 1% 0;
+}
+
+.serviceCol li {
+    color: #808080;
+    list-style-image: url('https://mvalenciaiii.github.io/detroix/media/gear.jpg');
+}
+
+.opporCol {
+    position: relative;
+    padding: 1% 0;
+
+}
+
+
+.opporCol li {
+    color: #808080;
+    list-style-image: url('https://mvalenciaiii.github.io/detroix/media/bubble.jpg');
+}
+
+.opporCol h4 {
+    color: #ffffff;
+}
+
+.newsCol {
+    position: relative;
+    padding: 1% 0;
+
+}
+
+
+.newsCol h6{
+    color: #ffffff;
+}
+
+.newsCol p {
+    color: #808080;
+}
+
+.newsCol img {
+    border-radius: 20%;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0e1e31;
+    color: #ffffff;
+}
+
+@media (max-width: 576px) {
+
+    .fourthBtn {
+        margin-left: 1%;
+    }
+}
+
+@media (max-width:991px) {
+    .logoRow button {
+        margin: 2px 1%;
+    }
+}
+
+@media (min-width:992px) {
+    .smartCol {
+        border-top: solid 2px #808080;
+    }
+    
+    .strongCol {
+        border-top: solid 2px #808080;
+        border-left: solid 2px #808080;
+        border-right: solid 2px #808080;
+    }
+
+    .stableCol {
+        border-top: solid 2px #808080;
+
+    }
+}
